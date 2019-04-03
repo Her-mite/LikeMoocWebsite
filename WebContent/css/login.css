@@ -1,0 +1,273 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+#login_head{
+	width: 100%;
+	height: 100px;
+	border: 0.1px solid lightgray;
+}
+
+.logo{
+	position: absolute;
+	width: 250px;
+    height:80px;
+    margin-top: 10px;
+    /*border: 0.1px solid red;*/
+}
+.logo img{
+	width: 250px;
+    height:80px;
+   
+}
+
+.desc{
+		font-size: 18px;
+    line-height: 34px;
+    border-left: 2px solid #ccc;
+    position: absolute;
+    left: 255px;
+    top:28px;
+    font-weight:bold;
+    padding-left:5px ;
+    /*border: 0.1px solid red;*/
+}
+
+
+/****************************************/
+#login_centre{
+	width: 100%;
+	height: 531px;
+	/*border: 0.1px solid red;*/
+}
+/****************************************/
+.advertising{
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right: 0.1px solid lightgray;
+	background: url(../img/rigist1.jpg);
+	background-size: cover;
+	
+}
+
+
+/****************************************/
+.login_form{
+	width: 400px;
+	height: 400px;
+	border: 0.1px solid lightgray;
+	float: right;
+	margin-top: 70px;
+	margin-right: 140px;
+	/*background: url(../img/login1.jpg);
+	background-size: cover;*/
+}
+
+.login_form_title{
+	height: 60px;
+	border-bottom: 0.1px solid lightgray;
+}
+
+.login_form_title span{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: x-large;
+}
+
+.login_form_title a{
+	float: right;
+	margin-top: 21px;
+	margin-right: 10px;
+	font-size: x-small;
+}
+
+.login_form_title a:hover{
+	text-decoration:underline;
+	color: blue;
+	
+}
+
+
+.login_form_input{
+	height: 240px;
+}
+
+.login_form_input .username{
+	margin-top: 30px;
+	margin-left:50px;
+	width: 300px;
+	height: 40px;
+	padding-left: 5px;
+	
+}
+
+.login_username_tip{
+	height: 25px;
+	width: 280px;
+	margin-left:50px;
+	/*border: 0.1px solid red;*/
+}
+
+.login_username_tip p{
+	font-size: x-small;
+	color: gainsboro;
+	margin-top: 5px;
+	margin-bottom: 0;
+	height: 25px;
+}
+
+.login_form_input .password{
+	margin-left:50px;
+	width: 300px;
+	height: 40px;
+	padding-left: 5px;
+	
+}
+
+.login_password_tip{
+	display: inline-block;
+	height: 25px;
+	width: 280px;
+	margin-left:50px;
+	z-index: 2;
+	/*border: 0.1px solid red;*/
+}
+.login_password_tip p{
+	font-size: x-small;
+	color: gainsboro;
+	margin-top: 5px;
+	margin-bottom: 0;
+	height: 25px;
+}
+
+
+
+.login_form_input .login_submit{
+	width: 400px;
+	height: 85px;
+	/*margin-top: 2px;*/
+	/*border: 0.1px solid red;*/
+	
+}
+.login_submit span{
+	display: block;
+	height: 25px;
+	/*margin-top: 2px;*/
+	/*border: 0.1px solid red;*/
+	
+}
+.login_submit span a{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-size: xx-small;
+	font-family:"arial narrow" ;
+	
+}
+.login_submit span a:hover{
+	text-decoration:underline;
+	color: blue;
+	
+}
+
+.login_submit .submit{
+	width: 305px;
+	height: 50px;
+	margin-left:51px;
+	margin-top: 5px;
+	/*border: 0.1px solid red*/
+	
+	
+}
+
+
+.login_form_other{
+	height: 100px;
+	border-top: 0.1px solid lightgray;
+}
+
+.login_form_other .log{
+	height: 25px;
+	width: 300px;
+	margin-left: 50px;
+	border-bottom: 0.1px solid gray;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+.login_form_other .log span{
+	position: relative;
+	margin-left: 100px;
+	background: white;
+	top: 12px;
+}
+
+.login_form_other .icon{
+	
+	height: 75px;
+	/*border: 0.1px solid goldenrod;*/
+}
+
+/*.login_form_other .icon ul{
+	border: 0.1px solid red;
+}*/
+
+.login_form_other .icon ul li{
+	display: inline;
+	/*border: 0.1px solid red;*/
+}
+
+.login_form_other .icon .icon_list{
+	width: 200px;
+	height: 100%;
+	margin-left: 60px;
+	/*border: 0.1px solid red;*/
+	
+}
+
+.login_form_other .icon ul li img{
+	width: 30px;
+	height: 30px;
+	margin-left: 14px;
+	margin-top: 10px;
+	/*border: 0.1px solid red;*/
+}
+.login_form_other .icon ul li:first-child img:hover{
+	background: url(../img/weixin1.png);
+	/*border: 0.1px solid red;*/
+}
+
+/******************************************/
+#login_foot{
+	width: 100%;
+	height: 40px;
+	border: 0.1px solid lightgray;
+}
+
+#login_foot .author{
+	width: 250px;
+	height: 40px;
+	margin: auto;
+	/*border: 0.1px solid red;*/
+}
+#login_foot .author p{
+	text-align: center;
+	margin-top: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="libs/jquery-3.2.1.min.js" ></script>
+	</head>
+	<body>
+		<div id="login_head">
+			<a href="#" class="logo"><img src="img/logo.png" /> </a>
+			<div class="desc">Welcome to login</div>
+		</div>
+		
+		<div id="login_centre">
+			<div class="advertising">
+				
+			</div>
+			
+			<div class="login_form">
+				<div class="login_form_title">
+					<span> 登录</span>
+					<a href="#">没有账号>>去注册</a>
+				</div>
+				
+				<div class="login_form_input">
+					<form action="goLoginUser" method="post">
+						<div class="login_username">
+							<input class="username" type="text" placeholder="请输入用户名/账号" name="name"/>
+							<div class="login_username_tip" >
+								<p></p>
+							</div>
+						</div>
+						<div class="login_password">
+							<input class="password" type="password" placeholder="请输入密码" name="password"/>						
+						</div>
+						<div class="login_submit">
+							<span> 
+								<div class="login_password_tip">
+									<p></p>
+								</div>
+								<a href="#">忘记密码?</a>
+							</span>
+							<!--<button class="submit">登录</button>-->
+							<input type="submit" value="登录" class="submit"/>
+						</div>
+						
+					</form>
+					
+				</div>
+				
+				<div class="login_form_other">
+					<div class="log">
+						<span>社交账号登录</span>
+					</div>
+					<div class="icon">
+						<ul>
+							<div class="icon_list">
+								<li > <img src="img/weixin.png"/> </li>
+								<li > <img src="img/qq.png"/> </li>
+								<li > <img src="img/weibo.png"/> </li>
+								<li > <img src="img/email.png"/> </li>
+							</div>
+						</ul>
+					</div>
+						
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div id="login_foot">
+			<div class="author">
+				<p>Copyright@software115.com</p>
+			</div>	
+		</div>
+		<script type="text/javascript" src="js/login.js" ></script>	
+	</body>
+</html>
